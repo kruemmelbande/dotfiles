@@ -1,0 +1,66 @@
+#!/bin/python
+
+import json
+from os import popen
+from sys import stdout
+from time import sleep
+import datetime
+import random
+
+def cmd(command):
+    with popen(command) as process:
+        return process.read()[0:-1]
+
+def getTodaysQuote():
+    seed=int(datetime.datetime.now().strftime("%d%m%Y"))
+    
+    while True:
+        with open("/home/aoki/quotes","r") as f:
+            quotes=f.readlines()
+            random.seed(seed)
+        quote= random.choice(quotes).strip()
+        if quote.startswith("#"):
+            seed=random.randint(0,100000)
+            continue
+        return quote
+
+
+def boykisser():
+    return [{
+        'application_id': 1176211257989283910,
+        'state': "Boys Kissed: 9872 out of 10000",   
+        'details': "In a ranked match",
+        'large_image': {'key': 'boykisser', 'text': "Boy Kissing Simulator"},
+        'small_image': None,
+        'start_timestamp': int(cmd('date -d "$(uptime -s)" +%s')),
+        'end_timestamp': None,
+    }]
+
+# Missing items behave as if they were None
+def update():
+    return [{
+        'application_id': 1176211257989283910,
+        'state': cmd('uname -r'),   
+        'details': getTodaysQuote(),
+        'large_image': {'key': 'arch', 'text': None},
+        'small_image': None,
+        'start_timestamp': int(cmd('date -d "$(uptime -s)" +%s')),
+        'end_timestamp': None,
+    }]
+def override():
+    return [{
+        'application_id': 1176211257989283910,
+        'state': "i stand with yuzu",   
+        'details': "i stand with yuzu",
+        'large_image': None,
+        'small_image': None,
+        'start_timestamp': int(cmd('date -d "$(uptime -s)" +%s')),
+        'end_timestamp': None,
+    }]    
+while True:
+    print(json.dumps(update()))
+    #print(json.dumps(boykisser())
+    #print(json.dumps(override())
+    stdout.flush()
+
+    sleep(60)
