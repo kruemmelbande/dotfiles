@@ -9,6 +9,7 @@ alias folsize="du -h --max-depth 0"
 alias "suod"="sudo"
 alias "SUDO"="echo why u screaming at me bro?;#"
 alias "please"="sudo"
+alias "diff"="diff --color"
 alias gt=gnome-text-editor
 #alias nvim=nano
 #alias vim=nano
@@ -16,6 +17,7 @@ alias gt=gnome-text-editor
 alias cls="clear"
 alias clea="clear"
 alias r="clear"
+alias llm="ollama run llama3"
 alias aforw="adb forward tcp:9943 tcp:9943 && adb forward tcp:9944 tcp:9944"
 alias slc=clear
 alias clera=clear
@@ -41,7 +43,9 @@ alias neofetch=fastfetch
 alias ainst="makepkg -si"
 alias gc="git clone"
 alias cura="QT_QPA_PLATFORM=xcb cura"
-PS1='[\u@\h \W]\$ '
+#PS1='[\u@\h \W]\$ '
+#PS1='\u \w > '
+PS1='\[\033[92m\]\u \[\033[34m\]\w\[\033[0m\] > '
 #neofetch --logo
 #echo "############"
 #echo "# arch btw #"
