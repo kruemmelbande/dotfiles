@@ -201,4 +201,5 @@ bindl=, XF86AudioPrev, exec, playerctl previous
 
 exec-once=hyprpaper
 exec-once=waybar
-exec-once=blueman-applet
+exec-onc
+e=blueman-applet
