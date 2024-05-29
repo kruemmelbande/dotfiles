@@ -1,0 +1,53 @@
+2 screens: Height=587
+2 screens: Width=1280
+2 screens: XPosition=2880
+2 screens: YPosition=598
+DP-0 DP-4=DP-4
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAvsAAAAiAFEAdQBpAGMAawBDAG8AbQBtAGEAbgBkAHMARABvAGMAawAAAAAA/////wAAAXwBAAAD+wAAABwAUwBTAEgATQBhAG4AYQBnAGUAcgBEAG8AYwBrAAAAAAD/////AAABFQEAAAMAAAUAAAACHQAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABwAcwBlAHMAcwBpAG8AbgBUAG8AbwBsAGIAYQByAQAAAOX/////AAAAAAAAAAA=
+
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+1018x1018 screen: Height=573
+1018x1018 screen: Width=1018
+1018x1018 screen: XPosition=0
+1018x1018 screen: YPosition=669
+1024x768 screen: Height=515
+1024x768 screen: Width=904
+1024x768 screen: XPosition=11
+1024x768 screen: YPosition=95
+1080x1854 screen: Height=524
+1080x1854 screen: Width=911
+1280x800 screen: Height=524
+1280x800 screen: Width=911
+1920x1080 screen: Height=767
+1920x1080 screen: Width=1706
+1920x1080 screen: XPosition=504
+1920x1080 screen: YPosition=270
+2 screens: Height=813
+2 screens: Width=1421
+2 screens: XPosition=757
+2 screens: YPosition=606
+2560x1440 screen: Height=573
+2560x1440 screen: Width=2560
+2560x1440 screen: XPosition=0
+2560x1440 screen: YPosition=669
+DP-0=DP-0
+DP-0 DP-4=DP-0
+None-1=None-1
+ToolBarsMovable=Disabled
+Virtual-1=Virtual-1
+
+[Notification Messages]
+CloseAllEmptyTabs=true
+CloseAllTabs=true
+CloseSingleTab=true
+ShowPasteHugeTextWarning=false
+
+[UiSettings]
+ColorScheme=
