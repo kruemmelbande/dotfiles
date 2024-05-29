@@ -1,3 +1,4 @@
+set -x
 cp ~/.config/linux-discord-rich-presencerc .config/
 cp ~/.config/khotkeysrc .config/
 cp ~/.config/hypr .config/ -r
