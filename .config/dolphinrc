@@ -1,0 +1,41 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display,dolphin_directorysizemode.upd:convert-directorysizecount-to-directorysizemode
+
+[ContextMenu]
+ShowCopyMoveMenu=true
+
+[DetailsMode]
+PreviewSize=96
+
+[ExtractDialog]
+2 screens: Height=740
+2 screens: Width=1599
+DirHistory[$e]=$HOME/Downloads/
+
+[General]
+ConfirmClosingMultipleTabs=false
+ConfirmClosingTerminalRunningProgram=false
+GlobalViewProps=false
+RememberOpenedTabs=false
+Version=202
+ViewPropsTimestamp=2023,11,12,17,56,24.629
+
+[IconsMode]
+PreviewSize=96
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+2 screens: Height=500
+2 screens: Width=424
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=itinerarythumbnail,ffmpegthumbs,svgthumbnail,palathumbcreator,ebookthumbnail,cursorthumbnail,windowsexethumbnail,exrthumbnail,comicbookthumbnail,audiothumbnail,imagethumbnail,mobithumbnail,rawthumbnail,appimagethumbnail,pothumbnail,blenderthumbnail,mltpreview,fontthumbnail,windowsimagethumbnail,gsthumbnail,opendocumentthumbnail,kraorathumbnail,jpegthumbnail,djvuthumbnail,marble_thumbnail_kmz,marble_thumbnail_kml,marble_thumbnail_gpx,marble_thumbnail_shp,marble_thumbnail_geojson,marble_thumbnail_osm,quithumbnail,directorythumbnail
