@@ -8,6 +8,8 @@ alias celar=clear
 alias folsize="du -h --max-depth 0"
 alias "suod"="sudo"
 alias "SUDO"="echo why u screaming at me bro?;#"
+alias nodebug="pacman -Qq | grep -- -debug | sudo pacman -Rns -"
+alias gpp=g++
 alias "please"="sudo"
 alias "serial"="picocom /dev/ttyUSB0 --baud 115200 --imap lfcrlf"
 alias "diff"="diff --color"
@@ -20,7 +22,7 @@ alias hipower="sudo cpupower frequency-set -g ondemand;sudo nvidia-smi -pl 180"
 alias cls="clear"
 alias clea="clear"
 alias r="clear"
-alias llm="sudo systemctl start ollama;ollama run llama3;sudo systemctl stop ollama"
+alias llm="sudo systemctl start ollama;ollama run mllama;sudo systemctl stop ollama"
 alias aforw="adb forward tcp:9943 tcp:9943 && adb forward tcp:9944 tcp:9944"
 alias slc=clear
 alias clera=clear
@@ -28,6 +30,7 @@ alias cealr=clear
 alias claer=clear
 alias cearl=clear
 alias cleral=clear
+alias csl=clear
 alias lsc=clear
 alias mus="cd ~/Music && kronos"
 alias lcs=clear
@@ -40,6 +43,7 @@ alias purge="sudo pacman -Rdd"
 alias sreboot="sudo systemctl start systemd-soft-reboot.service"
 #alias bright="brightness 100"
 #alias windows="sudo echo 'entering Windows...';sleep 1;sudo virsh start win10"
+alias win="sudo /bin/virsh start win10"
 alias ls='ls --color=auto'
 alias waycord="discord --ignore-gpu-blocklist --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-features=VaapiVideoDecoder --use-gl=desktop --enable-gpu-rasterization --enable-zero-copy --no-sandbox"
 alias grep='grep --color=auto'
@@ -59,7 +63,7 @@ PS1='\[\033[92m\]\u \[\033[34m\]\w\[\033[0m\] > '
 #echo "############"
 #echo ""
 #alias cd=z
-alias wlx="pkill wlx && wlx-overlay-s"
+alias wlx="cd ~/wlx-overlayps;git pull;cargo run --release -- --replace"
 # Created by `pipx` on 2023-11-11 18:46:00
 export PATH="$PATH:/home/aoki/.local/bin"
 eval "$(zoxide init --cmd cd bash)"

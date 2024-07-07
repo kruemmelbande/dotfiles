@@ -15,4 +15,5 @@ toggle-window-state=Esc
 
 [Window]
 Height=46
+Screen=1
 Width=70
