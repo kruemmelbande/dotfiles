@@ -6,6 +6,7 @@ cp ~/.config/konsolerc .config/
 cp ~/.config/yakuakerc .config/
 cp ~/.config/dolphinrc .config/
 cp ~/.config/krunnerrc .config/
+cp ~/.config/kglobalshortcutsrc .config/
 cp ~/.bashrc ./.bashrc
 cp /etc/locale.* etc/
 cp /etc/vconsole.conf etc/
