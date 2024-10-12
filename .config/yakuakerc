@@ -11,7 +11,7 @@ move-session-right=;\s
 next-session=Shift+Right;\s
 next-terminal=Ctrl+Shift+Right
 previous-terminal=Ctrl+Shift+Left
-toggle-window-state=Esc
+toggle-window-state=F1
 
 [Window]
 Height=46

@@ -6,7 +6,7 @@ migrated=true
 
 [Plugins]
 PIM Contacts Search RunnerEnabled=false
-baloosearchEnabled=true
+baloosearchEnabled=false
 bookmarksEnabled=false
 browserhistoryEnabled=false
 browsertabsEnabled=false
@@ -16,11 +16,13 @@ krunner_bookmarksrunnerEnabled=false
 krunner_katesessionsEnabled=false
 krunner_pimcontactsEnabled=false
 krunner_recentdocumentsEnabled=false
+krunner_sessionsEnabled=false
 krunner_webshortcutsEnabled=false
 marbleEnabled=false
 org.kde.zanshinEnabled=false
 recentdocumentsEnabled=false
 webshortcutsEnabled=false
+windowsEnabled=false
 
 [Plugins][Favorites]
 plugins=krunner_services

@@ -1,10 +1,11 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-a8dc2bd0-cb6f-4631-a37d-ff4e13321c56=none,none,Switch to activity "Default"
+switch-to-activity-d76b2b59-5dd4-49cd-b12a-5b2d03fa4d97=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,
-Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,
+Switch to Next Keyboard Layout=Meta+Alt+K\tMeta+Space,Meta+Alt+K,
 _k_friendly_name=Keyboard Layout Switcher
 
 [kaccess]
@@ -25,7 +26,7 @@ decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Decrease Volume by 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
 increase_volume=Volume Up,Volume Up,Increase Volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Increase Volume by 1%
-mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
+mic_mute=Microphone Mute\tCtrl+`\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
 [ksmserver]
@@ -41,6 +42,7 @@ _k_friendly_name=Session Management
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activate Window Demanding Attention
+Cube=Meta+X,Meta+C,Toggle Cube
 Cycle Overview=none,none,Cycle through Overview and Grid View
 Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
@@ -119,11 +121,11 @@ Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Thr
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
 Window Close=Alt+F4\tMeta+C,Alt+F4,Close Window
-Window Fullscreen=none,,Make Window Fullscreen
+Window Fullscreen=Meta+Shift+F,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
-Window Maximize=Meta+PgUp,Meta+PgUp,Maximize Window
+Window Maximize=Meta+PgUp\tMeta+F,Meta+PgUp,Maximize Window
 Window Maximize Horizontal=none,,Maximize Window Horizontally
 Window Maximize Vertical=none,,Maximize Window Vertically
 Window Minimize=Meta+PgDown,Meta+PgDown,Minimize Window
@@ -198,11 +200,11 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 _k_friendly_name=Media Controller
 mediavolumedown=none,,Media volume down
 mediavolumeup=none,,Media volume up
-nextmedia=Media Next,Media Next,Media playback next
+nextmedia=Ctrl+Print\tMedia Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
 playmedia=none,,Play media playback
-playpausemedia=Media Play,Media Play,Play/Pause media playback
-previousmedia=Media Previous,Media Previous,Media playback previous
+playpausemedia=Print\tMedia Play,Media Play,Play/Pause media playback
+previousmedia=Ctrl+Shift+Print\tMedia Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org_kde_powerdevil]
@@ -258,8 +260,9 @@ _launch=Ctrl+Alt+D
 _launch=Ctrl+Alt+W
 
 [services][org.kde.spectacle.desktop]
+FullScreenScreenShot=none
 RectangularRegionScreenShot=Meta+Shift+S
-_launch=Print\t
+_launch=none
 
 [yakuake]
 _k_friendly_name=Yakuake

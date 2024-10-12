@@ -4,6 +4,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+alias waketrust="ssh raspberrypi wakeonlan -f trustmebro"
+alias mntrust="sshfs trustmebro:/home/aoki mnt"
 alias celar=clear
 alias folsize="du -h --max-depth 0"
 alias "suod"="sudo"
@@ -22,7 +24,9 @@ alias hipower="sudo cpupower frequency-set -g ondemand;sudo nvidia-smi -pl 180"
 alias cls="clear"
 alias clea="clear"
 alias r="clear"
-alias llm="sudo systemctl start ollama;ollama run mllama;sudo systemctl stop ollama"
+alias cargo="cargo mommy"
+#alias llm="sudo systemctl start ollama;ollama run mllama;sudo systemctl stop ollama"
+alias llm="ollama run llama3.1"
 alias aforw="adb forward tcp:9943 tcp:9943 && adb forward tcp:9944 tcp:9944"
 alias slc=clear
 alias clera=clear
