@@ -7,6 +7,8 @@
 alias waketrust="ssh raspberrypi wakeonlan -f trustmebro"
 alias mntrust="sshfs trustmebro:/home/aoki mnt"
 alias celar=clear
+alias celear=clear
+alias rasp="ssh raspberrypi"
 alias folsize="du -h --max-depth 0"
 alias "suod"="sudo"
 alias "SUDO"="echo why u screaming at me bro?;#"
@@ -19,8 +21,7 @@ alias gt=gnome-text-editor
 #alias nvim=nano
 #alias vim=nano
 #alias vi=nano
-alias lopower="sudo cpupower frequency-set -g powersave;sudo nvidia-smi -pl 90"
-alias hipower="sudo cpupower frequency-set -g ondemand;sudo nvidia-smi -pl 180"
+alias svim=sudoedit
 alias cls="clear"
 alias clea="clear"
 alias r="clear"
@@ -36,6 +37,9 @@ alias cearl=clear
 alias cleral=clear
 alias csl=clear
 alias lsc=clear
+alias lear=clear
+alias clar=clear
+alias cela=clear
 alias mus="cd ~/Music && kronos"
 alias lcs=clear
 alias scl=clear
@@ -73,4 +77,8 @@ export PATH="$PATH:/home/aoki/.local/bin"
 eval "$(zoxide init --cmd cd bash)"
 #[[ $- == *i* ]] && source /usr/share/blesh/ble.sh
 #eval "$(atuin init bash)"
-eval $(ssh-agent -s) > /dev/null
+eval $(ssh-agent -s) >/dev/null
+alias carno="/bin/cargo"
+alias pacplore="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'"
+alias autoremove="sudo pacman -Qdtq | sudo pacman -Rns -"
+#eval "$(thefuck --alias)"

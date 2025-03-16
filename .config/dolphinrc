@@ -3,6 +3,9 @@ MenuBar=Disabled
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display,dolphin_directorysizemode.upd:convert-directorysizecount-to-directorysizemode
 
+[CompactMode]
+PreviewSize=96
+
 [ContextMenu]
 ShowCopyMoveMenu=true
 
@@ -23,7 +26,8 @@ Version=202
 ViewPropsTimestamp=2023,11,12,17,56,24.629
 
 [IconsMode]
-PreviewSize=96
+IconSize=112
+PreviewSize=144
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -35,7 +39,6 @@ Places Icons Static Size=22
 
 [MainWindow]
 MenuBar=Disabled
-ToolBarsMovable=Disabled
 
 [PreviewSettings]
-Plugins=itinerarythumbnail,ffmpegthumbs,svgthumbnail,palathumbcreator,ebookthumbnail,cursorthumbnail,windowsexethumbnail,exrthumbnail,comicbookthumbnail,audiothumbnail,imagethumbnail,mobithumbnail,rawthumbnail,appimagethumbnail,pothumbnail,blenderthumbnail,mltpreview,fontthumbnail,windowsimagethumbnail,gsthumbnail,opendocumentthumbnail,kraorathumbnail,jpegthumbnail,djvuthumbnail,marble_thumbnail_kmz,marble_thumbnail_kml,marble_thumbnail_gpx,marble_thumbnail_shp,marble_thumbnail_geojson,marble_thumbnail_osm,quithumbnail,directorythumbnail
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,mobithumbnail,opendocumentthumbnail,palathumbcreator,gsthumbnail,quithumbnail,rawthumbnail,svgthumbnail,itinerarythumbnail,ffmpegthumbs

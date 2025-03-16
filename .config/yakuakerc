@@ -14,6 +14,5 @@ previous-terminal=Ctrl+Shift+Left
 toggle-window-state=F1
 
 [Window]
-Height=46
-Screen=1
+Height=48
 Width=70
